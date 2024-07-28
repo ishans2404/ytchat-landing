@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000000;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #F7E7DC;
+}
+
+a:hover {
+  color: #FFF8F3;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #758694;
+  width: fit-content;
+  padding: 15px 25px;
+  color: #FFF8F3;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 0;
+  margin-top: 50px;
+  transition: all 0.35s ease-out;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #758694;
+  bottom: 12px;
+  box-shadow: 0 0 20px 1px rgba(117, 134, 148, 0.639);
+}
+
+.btn:active {
+  background-color: #405D72;
+}
+
+@media screen and (max-width: 750px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
+/* Additional elements */
+
+header {
+  background-color: #758694;
+  padding: 20px;
+  border-bottom: 2px solid #F7E7DC;
+}
+
+header h1 {
+  color: #F7E7DC;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #758694;
+  padding: 20px;
+  border-top: 2px solid #F7E7DC;
+  text-align: center;
+}
+
+footer p {
+  color: #F7E7DC;
+}
+
+section {
+  padding: 20px;
+}
+
+.card {
+  background-color: #405D72;
+  border: 1px solid #758694;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card h2 {
+  color: #F7E7DC;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.7);
+}
